@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Sha="30396b326fd26d00978521795f7d871e22a7e292" BarId="431" />
   <ProductDependencies>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.source-build-externals" Version="10.0.615601">
@@ -13,15 +14,15 @@
       <Sha>232bcf31aad21949f80d6706720540b85e43fff3</Sha>
       <SourceBuild RepoName="source-build-reference-packages" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="System.CommandLine" Version="2.0.0-beta4.25071.2">
-      <Uri>https://github.com/dotnet/command-line-api</Uri>
-      <Sha>3bbb940ceeb3254790899d751a8d418348563d40</Sha>
+    <Dependency Name="System.CommandLine" Version="2.0.0-beta4.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25157.1">
-      <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>1ec6078c26e4a60b77d8fe64881491cd28335a08</Sha>
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.arcade" Version="10.0.0-beta.25157.1">
@@ -30,25 +31,25 @@
       <SourceBuild RepoName="arcade" ManagedOnly="true" />
     </Dependency>
     <!-- Dependencies required for source build. We'll still update manually -->
-    <Dependency Name="System.Formats.Asn1" Version="9.0.0">
-      <Uri>https://github.com/dotnet/runtime</Uri>
-      <Sha>d3981726bc8b0e179db50301daf9f22d42393096</Sha>
+    <Dependency Name="System.Formats.Asn1" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.Logging" Version="9.0.0">
-      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-runtime</Uri>
-      <Sha>9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3</Sha>
+    <Dependency Name="Microsoft.Extensions.Logging" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0">
-      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-runtime</Uri>
-      <Sha>9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3</Sha>
+    <Dependency Name="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.Logging.Console" Version="9.0.0">
-      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-runtime</Uri>
-      <Sha>9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3</Sha>
+    <Dependency Name="Microsoft.Extensions.Logging.Console" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0">
-      <Uri>https://github.com/dotnet/runtime</Uri>
-      <Sha>9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3</Sha>
+    <Dependency Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
