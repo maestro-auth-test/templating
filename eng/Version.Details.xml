@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
-  <Source Uri="https://github.com/maestro-auth-test/dotnet" Mapping="templating" Sha="01dd8de498ba1894e872783e54a58fe109f91d84" BarId="8" />
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Mapping="templating" Sha="15802c5dfa893b68812be272d93e7feecee2c87c" BarId="79" />
   <ProductDependencies>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.source-build-externals" Version="10.0.621401">
@@ -14,15 +14,15 @@
       <Sha>0fb2d0d836dffe32b32e362e86f0dccd6f40bee8</Sha>
       <SourceBuild RepoName="source-build-reference-packages" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="System.CommandLine" Version="2.0.0-beta4.25215.101">
+    <Dependency Name="System.CommandLine" Version="2.0.0-beta4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25215.101">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.arcade" Version="10.0.0-beta.25214.8">
@@ -31,45 +31,45 @@
       <SourceBuild RepoName="arcade" ManagedOnly="true" />
     </Dependency>
     <!-- Dependencies required for source build. We'll still update manually -->
-    <Dependency Name="System.Formats.Asn1" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="System.Formats.Asn1" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.Logging" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="Microsoft.Extensions.Logging" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.Logging.Console" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="Microsoft.Extensions.Logging.Console" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Bcl.AsyncInterfaces" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="Microsoft.Bcl.AsyncInterfaces" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="System.Diagnostics.DiagnosticSource" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="System.Diagnostics.DiagnosticSource" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="System.Text.Json" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="System.Text.Json" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="System.IO.Pipelines" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="System.IO.Pipelines" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
-    <Dependency Name="System.Text.Encodings.Web" Version="10.0.0-preview.4.25215.101">
+    <Dependency Name="System.Text.Encodings.Web" Version="10.0.0-preview.4.25215.102">
       <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
-      <Sha>01dd8de498ba1894e872783e54a58fe109f91d84</Sha>
+      <Sha>15802c5dfa893b68812be272d93e7feecee2c87c</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
